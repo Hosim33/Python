@@ -32,6 +32,6 @@ while(1):  #무한루프로 게임을 종료하기 전까지 돌린다.
     elif num ==2:        #기록확인
         for index, value in enumerate(score):    #score 리스트의 값을 인덱스와 함께 출력한다.
             print(index+1, value)   #인덱스에 1을 더해서 1등부터 나올 수 있게 했다.
-    elif num ==3:        #게임종료
+    else:      #게임종료
         print("게임을 종료합니다.") 
         break       #무한루프 탈출로 게임을 완전히 종료
